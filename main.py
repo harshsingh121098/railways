@@ -13,7 +13,9 @@ def generateSkeleton():
     audio = AudioSegment.from_mp3('railway.mp3')
     
 def generateannouncement(filename):
-    pass
+    df = pd.read_excel(filename)
+    print(df)
+    
 
 if __name__== "__main__":
     print("genarating skeleton..")
