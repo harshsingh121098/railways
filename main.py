@@ -10,7 +10,8 @@ def mergeaudios(audios):  #returns pydubs audio segment
     pass
 
 def generateSkeleton():
-    pass
+    audio = AudioSegment.from_mp3('railway.mp3')
+    
 def generateannouncement(filename):
     pass
 
